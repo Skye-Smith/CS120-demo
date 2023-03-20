@@ -8,6 +8,7 @@ public class datetime_convert {
         LocalDateTime dateObj = LocalDateTime.parse(dateStr, formatter);
         String formattedDate = dateObj.format(DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss"));
 
+        // Print formatted date
         System.out.println(formattedDate);
     }
 }
